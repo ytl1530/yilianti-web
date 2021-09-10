@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>问答社区</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <style>
+        .text-size-sm {
+            font-size: 14px;
+        }
+        
+        .text-size-xs {
+            font-size: 12px;
+        }
+        
+        a {
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏开始 -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container">
+            <a href="" class="navbar-brand">问答社区</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">问答</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">话题</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">专家</a>
+                    </li>
+                </ul>
+                <!-- 输入框 -->
+                <form action="" method="post">
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">搜索</button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-md-4">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">注册</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- 导航栏结束 -->
+    <div class="bg-light py-3">
+        <div class="container">
+            <!-- 导航开始 -->
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#news" data-toggle="tab" class="nav-link active">最新</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#hot" data-toggle="tab" class="nav-link">热门</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#unresolved" data-toggle="tab" class="nav-link">未解决</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resolved" data-toggle="tab" class="nav-link">已解决</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 导航结束 -->
+
+            <div class="row mt-4">
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- 问题列表开始 -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="news">
+                                    <div class="list-group">
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img1.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img2.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span>发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img3.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img4.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img5.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img6.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img7.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span>发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img8.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span>发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img9.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img10.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="hot">
+                                    <div class="list-group">
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img2.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span>发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img10.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img9.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img8.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img7.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img6.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img5.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img4.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img3.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img1.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="unresolved">
+                                    <div class="list-group">
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img3.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img4.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img5.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img6.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img8.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span>发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img7.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img1.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img10.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img2.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img9.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="resolved">
+                                    <div class="list-group">
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img10.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img1.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span>发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img2.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img9.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img3.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img8.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img6.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img7.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img5.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="list-group-item list-group-item-action d-flex">
+                                            <img src="./images/img4.jpeg" alt="" width="50" height="50">
+                                            <div class="ml-3">
+                                                <div>问题的标题</div>
+                                                <div class="text-size-sm">
+                                                    <span class="text-primary"> 某某某</span> 发起了问题 -
+                                                    <span class="text-info">23</span>个回答 -
+                                                    <span class="text-info">25</span>次浏览 -
+                                                    <span class="text-info">2</span>小时前
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 问题列表结束 -->
+                        </div>
+
+                        <!-- 大屏幕以下分页 -->
+                        <div class="col-12 mt-4 d-lg-none">
+                            <ul class="pagination justify-content-between">
+                                <li class="page-item">
+                                    <a href="" class="page-link">上一页</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">下一页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 分页开始 -->
+                        <div class="col-12 mt-4 d-none d-lg-block">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <a href="" class="page-link">首页</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">上一页</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">4</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">下一页</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="" class="page-link">末页</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 分页结束 -->
+                    </div>
+                </div>
+                <!-- 侧边栏开始 -->
+                <div class="col-lg-4 d-none d-lg-block">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="nav nav-tabs">
+                                <a href="#excellent" data-toggle="tab" class="nav-link mr-4 active">优秀答者</a>
+                                <a href="#expert" data-toggle="tab" class="nav-link">推荐专家</a>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="excellent">
+                                <div class="list-group">
+                                    <a href="" class="list-group-item list-group-item-action d-flex text-dark ">
+                                        <img src="./images/img1.jpeg" alt="" width="50" height="50">
+                                        <div class="ml-3">
+                                            <div><span class="text-info"> 张三</span> </div>
+                                            <div class="text-size-sm">
+                                                <span class="text-info">2</span>个提问 -
+                                                <span class="text-info">23</span>个回答 -
+                                                <span class="text-info">25</span>个有用
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action d-flex text-dark ">
+                                        <img src="./images/img3.jpeg" alt="" width="50" height="50">
+                                        <div class="ml-3">
+                                            <div><span class="text-info"> 李四</span> </div>
+                                            <div class="text-size-sm">
+                                                <span class="text-info">2</span>个提问 -
+                                                <span class="text-info">23</span>个回答 -
+                                                <span class="text-info">25</span>个有用
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action d-flex text-dark ">
+                                        <img src="./images/img2.jpeg" alt="" width="50" height="50">
+                                        <div class="ml-3">
+                                            <div><span class="text-info"> 王五</span> </div>
+                                            <div class="text-size-sm">
+                                                <span class="text-info">2</span>个提问 -
+                                                <span class="text-info">23</span>个回答 -
+                                                <span class="text-info">25</span>个有用
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="expert">
+                                <div class="list-group">
+                                    <a href="" class="list-group-item list-group-item-action d-flex text-dark ">
+                                        <img src="./images/img7.jpeg" alt="" width="50" height="50">
+                                        <div class="ml-3">
+                                            <div><span class="text-info"> 张三</span> </div>
+                                            <div class="text-size-sm">
+                                                <span class="text-info">2</span>个提问 -
+                                                <span class="text-info">23</span>个回答 -
+                                                <span class="text-info">25</span>个有用
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action d-flex text-dark ">
+                                        <img src="./images/img6.jpeg" alt="" width="50" height="50">
+                                        <div class="ml-3">
+                                            <div><span class="text-info"> 李四</span> </div>
+                                            <div class="text-size-sm">
+                                                <span class="text-info">2</span>个提问 -
+                                                <span class="text-info">23</span>个回答 -
+                                                <span class="text-info">25</span>个有用
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="list-group-item list-group-item-action d-flex text-dark ">
+                                        <img src="./images/img5.jpeg" alt="" width="50" height="50">
+                                        <div class="ml-3">
+                                            <div><span class="text-info"> 王五</span> </div>
+                                            <div class="text-size-sm">
+                                                <span class="text-info">2</span>个提问 -
+                                                <span class="text-info">23</span>个回答 -
+                                                <span class="text-info">25</span>个有用
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header">热门话题</div>
+                        <div class="card-body">
+                            <span class="badge badge-info">CSS</span>
+                            <span class="badge badge-info">Javascript</span>
+                            <span class="badge badge-info">HTML</span>
+                            <span class="badge badge-info">SCSS</span>
+                            <span class="badge badge-info">Markdown</span>
+                            <span class="badge badge-info">Git</span>
+                            <span class="badge badge-info">Webpack</span>
+                            <span class="badge badge-info">nodejs</span>
+                            <span class="badge badge-info">CSS</span>
+                            <span class="badge badge-info">Javascript</span>
+                            <span class="badge badge-info">HTML</span>
+                            <span class="badge badge-info">SCSS</span>
+                            <span class="badge badge-info">Markdown</span>
+                            <span class="badge badge-info">Git</span>
+                            <span class="badge badge-info">Webpack</span>
+                            <span class="badge badge-info">nodejs</span>
+                        </div>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header">热门问题</div>
+                        <div class="list-group">
+                            <a href="" class="list-group-item">1.问题标题</a>
+                            <a href="" class="list-group-item">2.问题标题</a>
+                            <a href="" class="list-group-item text-truncate">3.问题标题问题标题问题标题问题标题问题标题</a>
+                            <a href="" class="list-group-item">4.问题标题</a>
+                            <a href="" class="list-group-item">5.问题标题</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 侧边栏结束 -->
+            </div>
+        </div>
+    </div>
+    <!-- 版权信息开始 -->
+    <div class="bg-dark py-3 text-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-size-sm">
+                    关于我们 - 广告合作 - 联系我们 - 免责声明 - 网站地图 - 投诉建议 - 在线投稿
+                </div>
+                <div class="col-12 text-size-xs">
+                    ©CopyRight 2006-2021 ASK.COM Inc All Rights Reserved. 问答社区 版权所有
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 版权信息结束 -->
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
